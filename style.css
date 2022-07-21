@@ -18,5 +18,37 @@
 body {
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: var(--Cream);
 }
 
+.header {
+    width: 20rem;
+    height: 4.7rem;
+    background-color: var(--Soft-red);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.header p{
+    text-align: left;
+    font-size: .7rem;
+    color: var(--Very-pale-orange);
+    margin: 1.3rem;
+}
+
+.header p span {
+    font-weight: 700;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: .3rem;
+}
+
+.header img {
+    width: 2.7rem;
+    margin: 1rem;
+}
