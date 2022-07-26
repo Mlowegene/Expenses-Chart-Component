@@ -52,3 +52,53 @@ body {
     width: 2.7rem;
     margin: 1rem;
 }
+
+.content {
+    background-color: var(--Very-pale-orange);
+    width: 20rem;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.content h4 {
+    text-align: left;
+    padding: 2rem 1.5rem;
+    color: var(--Dark-brown);
+}
+
+.chart{
+    margin: 0 1.3rem;
+}
+
+.footer {
+    margin: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.this-month {
+    color: var(--Medium-brown);
+    font-size: .7rem;
+}
+
+.this-month span {
+    color: var(--Dark-brown);
+    font-weight: 700;
+    font-size: 1.7rem;
+    display: block;
+}
+
+.last-month {
+    color: var(--Dark-brown);
+    text-align: right;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: .7rem;
+}
+
+.last-month span {
+    color: var(--Medium-brown);
+    font-size: .7rem;
+    display: block;
+}
