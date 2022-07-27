@@ -71,6 +71,11 @@ body {
     margin: 0 1.3rem;
 }
 
+hr {
+    margin:1.3rem;
+    opacity: .2;
+}
+
 .footer {
     margin: 1.3rem;
     display: flex;

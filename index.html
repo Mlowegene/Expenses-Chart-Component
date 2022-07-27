@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  
+
   <link type="text/css" rel="stylesheet" href="./style.css">
   
   <title>Expenses chart component</title>
@@ -20,14 +22,15 @@
   <section class="content">
     <h4>Spending - Last 7 days</h4>
     <div class="chart">
-     
-     
+      <canvas id="myChart" style="width:100%;max-width:400px"></canvas>
     </div>
+    <hr>
     <div class="footer">
       <p class="this-month">Total this month<span>$478.33</span></p>
     <p class="last-month">+2.4%<span>from last month</span></p>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="./main.js"></script>
 </body>
 </html>
