@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./chart1.jpg)
+![](./chart1.png)
 
 
 ### Links
