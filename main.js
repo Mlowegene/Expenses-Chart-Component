@@ -38,7 +38,7 @@ function chartFunc(xValues, yValues) {
       }]
     },
     options: {
-      Plugins: {
+      plugins: {
           legend: { 
             display: false
            }
